@@ -1,0 +1,15 @@
+---
+title: "Essential Fish Habitat Literature"
+author: "Gulf of Mexico Fishery Management Council"
+date: "Date of Report `r Sys.Date()`"
+---
+
+
+```{r  collapse=TRUE,echo=FALSE}
+library(knitr)
+#kable(values$df)
+kable(litOut()$Citation,row.names=FALSE)
+```
+
+
+
